@@ -12,7 +12,7 @@
     "version": "6.3.0"
   },
   "dependencies": {
-    "glob-parent": "^5.1.2",
+    "glob-parent": "^6.0.2",
     "gulp-html-minifier-terser": "^7.0.0-beta.0",
     "hexo": "^6.3.0",
     "hexo-butterfly-envelope": "^1.0.15",
