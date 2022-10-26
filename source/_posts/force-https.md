@@ -53,14 +53,15 @@ server {
 }
 ```
 
-###nginx最终配置看这里
+### nginx最终配置看这里
 
-我们去修改/etc/nginx/nginx.conf这个文件，在空白合法位置(<font color="red">不在server的括号里面</font>)添加以下内容：
+我们去修改/etc/nginx/nginx.conf这个文件，在空白合法位置新建一个server(<font color="red">不在server的括号里面</font>)添加以下内容：
 
 ```bash
     server {
     
     if ($host = www.afish.org) {
+    #将接收到的http请求重定向到https
         return 301 https://$host$request_uri;
     } # managed by Certbot
 
@@ -71,7 +72,7 @@ server {
 
 
 }
-#将接收到的http请求以https方式返回
+
 ```
 
 退出文件，重新加载nginx：
