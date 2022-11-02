@@ -277,7 +277,7 @@ addtoany:
 comments:
   # Up to two comments system, the first will be shown as default
   # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo/Giscus/Remark42/Artalk
-  use: Utterances
+  use: Waline
   text: true # Display the comment name next to the button
   # lazyload: The comment system will be load when comment element enters the browser's viewport.
   # If you set it to true, the comment count will be invalid
@@ -328,11 +328,28 @@ valine:
 # waline - A simple comment system with backend support fork from Valine
 # https://waline.js.org/
 waline:
-  serverURL: # Waline server address url
-  bg: # waline background
-  pageview: false
+  serverURL: waline.starshine.eu.org    # 填入刚刚得到的后端 URL（必填）
   option:
-
+    locale: {
+      nick: '昵称',
+      mail: '邮箱',
+      link: '你的网站',
+      placeholder: '你这么可爱一定会文明评论的吧～(填写邮箱可以收到回复通知哦)',
+      requiredMeta: [],
+      mailError: '请填写正确的邮件地址',
+      sofa: '快来抢占沙发~',
+      level0: '锻体',
+      level1: '练气',
+      level2: '筑基',
+      level3: '金丹',
+      level4: '元婴',
+      level5: '化神',
+      }
+    emoji: [
+        'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/tw-emoji',
+        'https://cdn.jsdelivr.net/gh/norevi/waline-blobcatemojis@1.0/blobs',
+        'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/bilibili',
+        ]
 # utterances
 # https://utteranc.es/
 utterances:
