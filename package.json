@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@waline/hexo-next": "^3.0.1",
-    "glob-parent": "^5.1.2",
+    "glob-parent": "^6.0.2",
     "gulp": "^4.0.2",
     "gulp-html-minifier-terser": "^7.0.0-beta.0",
     "hexo": "^6.3.0",
