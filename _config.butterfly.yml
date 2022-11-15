@@ -338,12 +338,13 @@ waline:
       requiredMeta: [],
       mailError: '请填写正确的邮件地址',
       sofa: '快来抢占沙发~',
-      level0: '锻体',
-      level1: '练气',
-      level2: '筑基',
-      level3: '金丹',
-      level4: '元婴',
-      level5: '化神',
+      level0: '一介凡夫',
+      level1: '初窥仙缘',
+      level2: '醒神纳灵',
+      level3: '灵蕴化丹',
+      level4: '丹碎神成',
+      level5: '神灭劫起',
+      level6: '道妙真仙'
       }
     emoji: [
         'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/tw-emoji',

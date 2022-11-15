@@ -31,5 +31,5 @@ function getbrowserInfo() {
 var ip_content = document.querySelector(".ip_content");
 
 if (ip_content != null && typeof (returnCitySN) != undefined) {
-    ip_content.innerHTML = '欢迎来自 <span class="p red">' + returnCitySN["cname"] + "</span> 的小伙伴<br>" + "访问IP为： <span class='p cyan'>" + returnCitySN["cip"] + "</span><br>浏览器版本：<span class='p blue'>" + getbrowserInfo() + '</span>';
+    ip_content.innerHTML = '欢迎来自 <span class="p red">' + returnCitySN["cname"] + "</span> 的小可爱<br>" + "访问IP为： <span class='p cyan'>" + returnCitySN["cip"] + "</span><br>浏览器版本：<span class='p blue'>" + getbrowserInfo() + '</span>';
 }

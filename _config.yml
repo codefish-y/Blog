@@ -103,7 +103,7 @@ language: zh-CN
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: 'git'
-  repo: root@198.23.165.138:/root/repo/blog.git
+  repo: root@104.168.122.91:/root/repo/blog.git
   branch: master
 
 # Live2D

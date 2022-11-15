@@ -50,7 +50,7 @@ hexo new page 404
 
 ![image-20221021164710924](../image/modify-404-page/image-20221021164710924.png)
 
-前往站点的`/public`目录,将以存在的404网页文件删除
+前往站点的`/public`目录,将已存在的404网页文件删除
 
 ### 配置相关
 
@@ -114,3 +114,22 @@ permalink: /404
 运行`hexo s`查看效果，访问http://localhost:4000/404
 
 ![image-20221021171738388](../image/modify-404-page/image-20221021171738388.png)
+
+### 注意
+
+如果还是显示nginx的默认404页面，去服务器编辑nginx配置文件指定一下404页面的路径：
+
+`vi /etc/nginx/nginx.conf`
+
+添加以下内容：
+
+```nginx
+        error_page 404 /404.html;
+        location = /40x.html {
+        }
+
+```
+
+重新加载nginx：
+
+`nginx -s reload`
