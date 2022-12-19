@@ -15,7 +15,7 @@
     "@waline/hexo-next": "^3.0.1",
     "glob-parent": "^5.1.2",
     "gulp": "^4.0.2",
-    "gulp-html-minifier-terser": "^7.0.0-beta.0",
+    "gulp-html-minifier-terser": "^7.1.0",
     "hexo": "^6.3.0",
     "hexo-butterfly-envelope": "^1.0.15",
     "hexo-deployer-git": "^3.0.0",
