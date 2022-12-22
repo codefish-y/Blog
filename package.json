@@ -38,7 +38,7 @@
     "live2d-widget-model-koharu": "^1.0.5"
   },
   "devDependencies": {
-    "@babel/core": "^7.19.1",
+    "@babel/core": "^7.20.7",
     "@babel/preset-env": "^7.19.1",
     "gulp-babel": "^8.0.0",
     "gulp-clean-css": "^4.3.0",
